@@ -1,7 +1,4 @@
-import dotenv from "dotenv";
 import { App } from "@slack/bolt";
-
-dotenv.config();
 
 const AIYAA_SLACK_BOT_TOKEN = process.env.AIYAA_SLACK_BOT_TOKEN;
 const AIYAA_SIGNING_SECRET = process.env.AIYAA_SIGNING_SECRET;
